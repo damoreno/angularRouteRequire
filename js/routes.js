@@ -6,7 +6,7 @@ define([], function()
             '/init': {
                 templateUrl: variable+'/initialPage.html',
                 dependencies: [
-                    variable+'/initialController'
+                    '/initialController'
                 ]}
         }
     };
