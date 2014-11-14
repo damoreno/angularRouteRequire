@@ -4,7 +4,7 @@ define([], function()
     return {
         routes: {
             '/init': {
-                templateUrl: variable+'/initialPage.html',
+                templateUrl: '/initialPage.html',
                 dependencies: [
                     '/initialController'
                 ]}
